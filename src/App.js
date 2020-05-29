@@ -6,13 +6,6 @@ import './App.css';
 
 var model = null;
 
-
-const modelP = async () => {
-  model = await tf.loadLayersModel('https://arohlen.github.io/filehosttest/tfjs_model1/model.json');
-}
-
-modelP();
-
 var drawing = false;
 
 class App extends Component{
@@ -20,6 +13,10 @@ class App extends Component{
   constructor(props) {
     super(props);
     this.state = { pred: "" };
+  }
+
+  modelP = async () => {
+    model = await tf.loadLayersModel('https://arohlen.github.io/filehosttest/tfjs_model1/model.json');
   }
 
   clear() {
@@ -76,6 +73,9 @@ class App extends Component{
   }
 
   componentDidMount()  {
+
+    this.modelP();
+
     for (let r=0; r<28; r++){
         const row = this.table.insertRow(r);
         for (let c=0; c<28; c++){
