@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/digitclassifier/static/css/main.4e03e814.chunk.css",
-    "main.js": "/digitclassifier/static/js/main.03d4ffa5.chunk.js",
-    "main.js.map": "/digitclassifier/static/js/main.03d4ffa5.chunk.js.map",
+    "main.js": "/digitclassifier/static/js/main.cf4cdb23.chunk.js",
+    "main.js.map": "/digitclassifier/static/js/main.cf4cdb23.chunk.js.map",
     "runtime-main.js": "/digitclassifier/static/js/runtime-main.7ac0f05c.js",
     "runtime-main.js.map": "/digitclassifier/static/js/runtime-main.7ac0f05c.js.map",
     "static/css/2.30c2d978.chunk.css": "/digitclassifier/static/css/2.30c2d978.chunk.css",
     "static/js/2.a630e05d.chunk.js": "/digitclassifier/static/js/2.a630e05d.chunk.js",
     "static/js/2.a630e05d.chunk.js.map": "/digitclassifier/static/js/2.a630e05d.chunk.js.map",
     "index.html": "/digitclassifier/index.html",
-    "precache-manifest.1b15af303d30b5d421a6f2a8e6ad2fb9.js": "/digitclassifier/precache-manifest.1b15af303d30b5d421a6f2a8e6ad2fb9.js",
+    "precache-manifest.55fa11f2428d5cce772f7f485294df46.js": "/digitclassifier/precache-manifest.55fa11f2428d5cce772f7f485294df46.js",
     "service-worker.js": "/digitclassifier/service-worker.js",
     "static/css/2.30c2d978.chunk.css.map": "/digitclassifier/static/css/2.30c2d978.chunk.css.map",
     "static/css/main.4e03e814.chunk.css.map": "/digitclassifier/static/css/main.4e03e814.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.30c2d978.chunk.css",
     "static/js/2.a630e05d.chunk.js",
     "static/css/main.4e03e814.chunk.css",
-    "static/js/main.03d4ffa5.chunk.js"
+    "static/js/main.cf4cdb23.chunk.js"
   ]
 }
