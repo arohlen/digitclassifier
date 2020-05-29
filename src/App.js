@@ -32,7 +32,7 @@ class App extends Component{
     var table = document.querySelectorAll("td");
 
     var arr = Array.from(table).map( (td) => {
-      return td.style.backgroundColor === 'rgb(0, 0, 0)' ? 0 : 255;
+      return td.style.backgroundColor === 'rgb(0, 0, 0)' ? 0 : 1;
     })
 
     var image = tf.tensor(arr,[1,28,28,1])
@@ -74,7 +74,7 @@ class App extends Component{
 
   componentDidMount()  {
 
-    this.modelP();
+    //this.modelP();
 
     for (let r=0; r<28; r++){
         const row = this.table.insertRow(r);
