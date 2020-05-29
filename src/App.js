@@ -8,7 +8,7 @@ var model = null;
 
 var drawing = false;
 
-class App extends Component{
+class App extends React.Component{
 
   constructor(props) {
     super(props);
@@ -106,7 +106,7 @@ class App extends Component{
 
         <Row id="mnistbuttons">
           <Col md={2}>
-          <Button variant="primary" onClick = {this.predict}>Predicct</Button>
+          <Button variant="primary" onClick = {this.predict}>Predict</Button>
           </Col>
           <Col md={2}>
           <Button variant="primary" onClick = {this.clear}>Clear</Button>
