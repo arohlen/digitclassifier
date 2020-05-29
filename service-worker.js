@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/digitclassifier/precache-manifest.4a2711906a67eb913d56b972f0fa4553.js"
+  "/digitclassifier/precache-manifest.da3a6b2ce0ec0f1517b72db9b7c14f87.js"
 );
 
 self.addEventListener('message', (event) => {
