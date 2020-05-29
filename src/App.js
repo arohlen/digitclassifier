@@ -13,9 +13,10 @@ class App extends Component{
   constructor(props) {
     super(props);
     this.state = { pred: "" };
+    this.predict = this.predict.bind(this);
   }
 
-  modelP = async () => {
+  async modelP() {
     model = await tf.loadLayersModel('https://arohlen.github.io/filehosttest/tfjs_model1/model.json');
   }
 
@@ -48,7 +49,7 @@ class App extends Component{
     }
 
     this.setState(state => ({
-      pred: new s
+      pred: s
     }));
     //console.log(pred);
 
@@ -74,7 +75,7 @@ class App extends Component{
 
   componentDidMount()  {
 
-    //this.modelP();
+    this.modelP();
 
     for (let r=0; r<28; r++){
         const row = this.table.insertRow(r);
@@ -105,7 +106,7 @@ class App extends Component{
 
         <Row id="mnistbuttons">
           <Col md={2}>
-          <Button variant="primary" onClick = {() => {this.predict()}}>Predict</Button>
+          <Button variant="primary" onClick = {this.predict}>Predicct</Button>
           </Col>
           <Col md={2}>
           <Button variant="primary" onClick = {this.clear}>Clear</Button>
