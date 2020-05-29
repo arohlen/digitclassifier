@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#mnisthead{
+  margin-top: 4rem;
+}
+
+#mnistbuttons{
+  margin-left: 41%;
+}
+
+#mnistpred{
+  margin-top: 2%;
+  margin-left: 40%;
+}
