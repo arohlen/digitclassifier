@@ -48,7 +48,7 @@ class App extends Component{
     }
 
     this.setState(state => ({
-      pred: s
+      pred: new s
     }));
     //console.log(pred);
 
@@ -105,7 +105,7 @@ class App extends Component{
 
         <Row id="mnistbuttons">
           <Col md={2}>
-          <Button variant="primary" onClick = {() => {this.predict()}}>Predictt</Button>
+          <Button variant="primary" onClick = {() => {this.predict()}}>Predict</Button>
           </Col>
           <Col md={2}>
           <Button variant="primary" onClick = {this.clear}>Clear</Button>
@@ -117,12 +117,6 @@ class App extends Component{
           <h2>{this.state.pred}</h2>
           </Col>
         </Row>
-
-          
-          
-
-        
-
         </Container>
       
       
