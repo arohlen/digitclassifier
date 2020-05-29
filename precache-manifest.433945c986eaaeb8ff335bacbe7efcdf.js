@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cfe9ff848d3d473f6142e3ecf846ba1",
+    "revision": "de647a73d226b72ec4ab270e5b90c497",
     "url": "/digitclassifier/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/digitclassifier/static/css/2.30c2d978.chunk.css"
   },
   {
-    "revision": "bee28c54953d933332e8",
+    "revision": "11d6450f782e414b51f1",
     "url": "/digitclassifier/static/css/main.4e03e814.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/digitclassifier/static/js/2.c0af1b3c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bee28c54953d933332e8",
-    "url": "/digitclassifier/static/js/main.924f9af7.chunk.js"
+    "revision": "11d6450f782e414b51f1",
+    "url": "/digitclassifier/static/js/main.2cdea503.chunk.js"
   },
   {
     "revision": "71a0941054054dd71f3b",
